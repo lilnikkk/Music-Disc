@@ -22,7 +22,7 @@ const config = {
         slashCommand            : true,                 // Whether to enable slash command
 
         // OAUTH2 mode requires setting 'admin', 'clientSecret' value
-        admin                   : [{884770455439953950}],                   // Admin users, It must be the user ID (string[])
+        admin                   : [],                   // Admin users, It must be the user ID (string[])
 
         /**
          * DYNAMIC mode: The first user to execute a command becomes the DJ
