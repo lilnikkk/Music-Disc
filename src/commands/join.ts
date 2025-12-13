@@ -9,7 +9,7 @@ import type { Bot } from '../@types/index.js';
 
 
 export const name = 'join';
-export const aliases = ['add', 'summon'];
+export const aliases = ['add', 'j'];
 export const description = i18next.t('commands:CONFIG_JOIN_DESCRIPTION');
 export const usage = i18next.t('commands:CONFIG_JOIN_USAGE');
 export const category = CommandCategory.MUSIC;
