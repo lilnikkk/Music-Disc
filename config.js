@@ -22,7 +22,7 @@ const config = {
         slashCommand            : true,                 // Whether to enable slash command
 
         // OAUTH2 mode requires setting 'admin', 'clientSecret' value
-        admin                   : [],                   // Admin users, It must be the user ID (string[])
+        admin                   : ['884770455439953950'],                   // Admin users, It must be the user ID (string[])
 
         /**
          * DYNAMIC mode: The first user to execute a command becomes the DJ
@@ -51,7 +51,7 @@ const config = {
             warning             : '#FFFF00',            // Warning embed color
         },
         volume: {
-            default             : 50,
+            default             : 100,
             max                 : 100,
         },
         // Auto leave channel settings
